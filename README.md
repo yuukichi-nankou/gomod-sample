@@ -35,4 +35,18 @@ sample code for go modules
 ## Case 3 Use other container image
 ```
 # git clone https://github.com/yuukichi-nankou/blog-gae-go
+
+<< Open remote container >>
+
+<< hugo >> 
+
+<< exit and deploy>>
+gcloud app deploy
+```
+
+## Case 4 Deploy container
+```
+# docker exec -it 923ad9b69d6b ash
+# PORT=8080 && docker run -p 8080:${PORT} -e PORT=${PORT} monpote
+
 ```
