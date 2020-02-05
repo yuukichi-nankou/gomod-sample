@@ -32,7 +32,7 @@ sample code for go modules
 3. Click "Open Browser" in the notification that appears to access the web app on this new port.
 ``` 
 
-## Case 3 Use container image
+## Case 3 Use other container image
 ```
-
+# git clone https://github.com/yuukichi-nankou/blog-gae-go
 ```
